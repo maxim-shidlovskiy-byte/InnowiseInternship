@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Library</title>
+</head>
+<body>
+    <div id="headerContainer">
+        <div class= "bookIconContainer">
+            <img src="/src/assets/book.svg" alt="" class="bookIcon">
+        </div>
+        <div class="headerName">
+            <h1>The Library<br></h1>
+            <h4>Discover your next favorite book</h4>
+        </div>
+    </div>
+    <div id = "slogan">
+        <div class="sloganText">
+            <h1>Discover Your Next Great Read<br></h1>
+            <h4>Search million of books, build your personal library, and never lose track of what to read next</h4>
+        </div>
+    </div>
+    <div class="searchContainer">
+        <img src="/src/assets/search.svg" alt="Search" class = "searchIcon">
+        <input type="text" class="searchInput" placeholder="Search for books by title or author...">
+    </div>
+    <div id="contentBody">
+        <div id="libraryContainer">
+        </div>
+        <div id="favoriteContainer">
+            <div class="favoriteContainerHeader">
+                <svg width=32 height=32 viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="icon-background" width = 100% height = 100% x="0" y="0" rx="3" ry="3" />
+                    <path d="M12.6667 9.33333C13.66 8.36 14.6667 7.19333 14.6667 5.66667C14.6667 4.69421 14.2804 3.76158 13.5928 3.07394C12.9051 2.38631 11.9725 2 11 2C9.82671 2 9.00004 2.33333 8.00004 3.33333C7.00004 2.33333 6.17337 2 5.00004 2C4.02758 2 3.09495 2.38631 2.40732 3.07394C1.71968 3.76158 1.33337 4.69421 1.33337 5.66667C1.33337 7.2 2.33337 8.36667 3.33337 9.33333L8.00004 14L12.6667 9.33333Z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <div class="favoriteHeaderText">
+                    <h3>Favorites</h3>
+                    <p><span id="favoriteCount">0</span> books saved</p>
+                </div>
+            </div>
+            <div class="favoriteContainerBooks">
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="themeSelector">
+            <span>Theme:</span>
+            <div class="themeOptions">
+                <div class="themeOption" data-theme="default" style="background-color: #f7f4ef;"></div>
+                <div class="themeOption" data-theme="blue" style="background-color: #e6f2ff;"></div>
+                <div class="themeOption" data-theme="green" style="background-color: #eaf0ed;"></div>
+            </div>
+        </div>
+        <p class="footerText">Powered by <a href="https://openlibrary.org/" class="footerLink">Open Library</a></p>
+    </footer>
+</body>
+<script type = "module" src="/src/js/main.js"></script>
+</html>

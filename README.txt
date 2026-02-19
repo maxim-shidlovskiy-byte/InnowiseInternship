@@ -1,0 +1,36 @@
+------------------------------ TASK ----------------------------------------
+A link to the original task description: https://drive.google.com/file/d/1RBRcuH-_oAvtjem5Xs0c4NXZ8I38aYyH/view
+
+---------------------------- How to run the app ----------------------------
+Prerequisites:
+	Node.js installed on your machine
+	npm (Node Package Manager) or yarn
+
+Installation:
+	1. Clone or download the project files to your local machine
+	2. Open a terminal/command prompt in the project directory
+	3. Install dependencies by running:
+		npm install
+
+Running the Application:
+	Start the development server:
+		npm run dev
+	Open your browser and navigate to the URL provided in the terminal (usually http://localhost:5173/)	
+
+
+-------------------------- Project structure --------------------------------
+
+node_modules/: Contains all the project dependencies installed via npm
+src/: Source code directory
+	assets/: Contains SVG icons used in the application (book.svg, heart.svg, search.svg)
+		css/: Stylesheets for the application
+			style.css: Main stylesheet with theme support and responsive design
+		js/: JavaScript modules
+			libraryContainer.js: Handles book display, favorites, and loading books while scrolling
+			main.js: Entry point that initializes all modules
+			search.js: Implements search functionality with debouncing
+			theme.js: Manages theme switching and persistence
+index.html: Main HTML file that serves as the entry point of the application
+package.json: Project configuration file.
+package-lock.json: Lock file for npm dependencies
+
