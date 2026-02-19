@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/InnowiseInternship/', 
+  
   build: {
-    outDir: 'docs' // Указываем Vite собирать проект в папку 'docs'
+    outDir: 'docs'
   }
 });
